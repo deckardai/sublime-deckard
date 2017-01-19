@@ -1,4 +1,4 @@
-# sublime-deckard
+# Sublime <-> Deckard
 
 SublimeText connector to [Deckard](https://www.deckard.ai/) Assist. Find information and collaborate around the code.
 
@@ -6,24 +6,26 @@ SublimeText connector to [Deckard](https://www.deckard.ai/) Assist. Find informa
 Installation
 ------------
 
-1. Using [Package Control](https://packagecontrol.io/docs/usage):
+1. Using Package Control:
 
-  a) Inside Sublime, press `ctrl+shift+p`(Windows, Linux) or `cmd+shift+p`(OS X).
+  a) Inside Sublime, press `ctrl+shift+p`(Linux) or `cmd+shift+p`(OS X).
 
-  b) Type `install`, then press `enter` with `Package Control: Install Package` selected.
+  b) Type **`install`**, then press `enter` with `Package Control: Install Package` selected.
 
-  c) Type `deckard`, then press `enter` with the `Deckard` plugin selected.
+  c) Type **`deckard`**, then press `enter` with the `Deckard` plugin selected.
 
-2. Install the [Deckard desktop app](https://www.deckard.ai/download)
+2. Install the [Deckard desktop app](https://www.deckard.ai/download). You can use brew, apt-get, or download.
 
 
-From there, you will see extra information, hints, and discussions in the Deckard app as you're working in Sublime. Select any token in the code with `double-click` or `Cmd+D`.
+From there, you will see extra information, hints, and discussions in the Deckard app as you're working in Sublime.
+
+Select any word in the code with `double-click`, `ctrl+d`, `cmd+d`.
 
 
 Screen Shot
 -----------
 
-![App](https://www.deckard.ai/img/stable/screenshot01.png)
+<img src="https://www.deckard.ai/img/stable/screenshot01.png" width="600">
 
 
 Support
