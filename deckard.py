@@ -75,3 +75,11 @@ class Deckard(sublime_plugin.EventListener):
 	    except Exception as e:
 	        # Normal if Deckard is not running
 	        pass
+
+
+# No async support for Sublime 2, remove the _async suffixes
+for method in ["on_selection_modified", "on_modified"]:
+	method_async = method + "_async"
+	if not hasattr(sublime_plugin, method_async):
+		setattr(Deckard, method, getattr(Deckard, method_async))
+		delattr(Deckard, method_async)
