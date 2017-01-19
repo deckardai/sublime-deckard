@@ -51,7 +51,6 @@ class Deckard(sublime_plugin.EventListener):
 	        })
 	    except Exception as e:
 	        # Normal if Deckard is not running
-	        print(e)
 	        pass
 
 	def on_selection_modified_async(self, view):
@@ -75,5 +74,4 @@ class Deckard(sublime_plugin.EventListener):
 	        self.post("event", event)
 	    except Exception as e:
 	        # Normal if Deckard is not running
-	        print(e)
 	        pass
